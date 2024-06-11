@@ -18,7 +18,8 @@ time complexity-O(N^2)
 
 #include<iostream>
 #include<vector>
-#include<bits/stdc++.h>
+#include<algorithm>
+
 using namespace std;
 
 long long maxSubarray(int arr[], int n)
