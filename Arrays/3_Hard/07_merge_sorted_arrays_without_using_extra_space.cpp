@@ -190,3 +190,9 @@ int main()
     cout << endl;
     return 0;
 }
+
+
+// Note-
+// 1)Time Complexity: O((n+m)*log(n+m)), where n and m are the sizes of the given arrays.
+// Reason: The gap is ranging from n+m to 1 and every time the gap gets divided by 2. So, the time complexity of the outer loop will be O(log(n+m)). Now, for each value of the gap, the inner loop can at most run for (n+m) times. So, the time complexity of the inner loop will be O(n+m). So, the overall time complexity will be O((n+m)*log(n+m)).
+// 2)Space Complexity: O(1) as we are not using any extra space.
