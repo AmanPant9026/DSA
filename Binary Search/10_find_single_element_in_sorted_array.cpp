@@ -42,3 +42,8 @@ int main()
     cout << "The single element is: " << ans << "\n";
     return 0;
 }
+
+// Note-
+// 1)Time Complexity: O(logN), N = size of the given array.
+// Reason: We are basically using the Binary Search algorithm.
+// 2)Space Complexity: O(1) as we are not using any extra space.
